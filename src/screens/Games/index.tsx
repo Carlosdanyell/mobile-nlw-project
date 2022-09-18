@@ -26,6 +26,7 @@ export function Games() {
   const route = useRoute();
   const game = route.params as gameParams;
 
+  
   function handleGoBack(){
       navigation.goBack()
   }
